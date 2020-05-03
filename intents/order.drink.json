@@ -1,0 +1,104 @@
+{
+  "id": "08232760-a938-4065-ada4-eb24f3ff2c24",
+  "name": "order.drink",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "cc26486a-b65f-419e-8b3f-a3903d532aee",
+          "required": true,
+          "dataType": "@flavor",
+          "name": "flavor",
+          "value": "$flavor",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "1362a911-009e-4a37-bb3c-a7c8371f351c",
+          "required": false,
+          "dataType": "@drink",
+          "name": "drink",
+          "value": "$drink",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "119044a1-67a7-4bf0-a266-4d65c361621c",
+          "required": true,
+          "dataType": "@size",
+          "name": "size",
+          "value": "$size",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "6f0506c7-9c50-4eb0-8b82-90f2bbf90016",
+          "required": true,
+          "dataType": "@milk_type",
+          "name": "milk_type1",
+          "value": "$milk_type1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "b20d101d-5fe0-4611-b72d-a46fcf3f491f",
+          "required": false,
+          "dataType": "@drink_composite",
+          "name": "drink_composite",
+          "value": "$drink_composite",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "9de6580e-d0bc-42b6-93f7-4c50b51cac07",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "I\u0027ve added your drink order."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

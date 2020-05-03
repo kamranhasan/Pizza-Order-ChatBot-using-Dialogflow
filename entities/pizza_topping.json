@@ -1,0 +1,9 @@
+{
+  "id": "52c608a1-4fc0-4fef-ad65-0cfc2a0d8153",
+  "name": "pizza_topping",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}
