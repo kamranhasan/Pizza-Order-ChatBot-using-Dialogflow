@@ -3,7 +3,11 @@ The chat bot can accept pizza and drinks orders from the users and store them in
 
 ## Get it working:
 -Clone the repository
+
 -Zip the file
+
 -Open dialogflow console
+
 -Import the agent through settings option
+
 -Test your bot
